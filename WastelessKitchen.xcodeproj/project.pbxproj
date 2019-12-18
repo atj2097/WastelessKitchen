@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+
+		0BFEB44523AACCA600FE2767 /* FoodPantryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFEB44423AACCA500FE2767 /* FoodPantryModel.swift */; };
 		3C914A1F23AAD3D80009DBF1 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C914A1E23AAD3D80009DBF1 /* LoginVC.swift */; };
 		3C914A2123AAD41F0009DBF1 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C914A2023AAD41F0009DBF1 /* SignUpVC.swift */; };
 		3C914A2323AAD4610009DBF1 /* FirestoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C914A2223AAD4610009DBF1 /* FirestoreService.swift */; };
@@ -54,6 +56,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+
+		0BFEB44423AACCA500FE2767 /* FoodPantryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPantryModel.swift; sourceTree = "<group>"; };
+
 		3C914A1E23AAD3D80009DBF1 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = SOURCE_ROOT; };
 		3C914A2023AAD41F0009DBF1 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = SOURCE_ROOT; };
 		3C914A2223AAD4610009DBF1 /* FirestoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreService.swift; sourceTree = "<group>"; };
@@ -191,7 +196,9 @@
 				CBDF016623AA94230037D68E /* Assets.xcassets */,
 				CBDF016823AA94230037D68E /* LaunchScreen.storyboard */,
 				CBDF016B23AA94230037D68E /* Info.plist */,
+
 				3C914A2823AAD58B0009DBF1 /* GoogleService-Info.plist */,
+
 				CBDF016323AA94220037D68E /* WastelessKitchen.xcdatamodeld */,
 			);
 			path = WastelessKitchen;
@@ -274,6 +281,9 @@
 			isa = PBXGroup;
 			children = (
 				CBE4889023AABA9100CEDB81 /* APIProtocol.swift */,
+
+				0BFEB44423AACCA500FE2767 /* FoodPantryModel.swift */,
+
 				3C914A2623AAD4960009DBF1 /* AppUser.swift */,
 			);
 			path = Models;
@@ -408,6 +418,7 @@
 				3C914A2923AAD58B0009DBF1 /* GoogleService-Info.plist in Resources */,
 				CBDF016A23AA94230037D68E /* LaunchScreen.storyboard in Resources */,
 				CBDF016723AA94230037D68E /* Assets.xcassets in Resources */,
+				0BFEB44323AACBAF00FE2767 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,6 +549,7 @@
 				CBE4889123AABA9100CEDB81 /* APIProtocol.swift in Sources */,
 				CBE4889723AABADE00CEDB81 /* FoodCell.swift in Sources */,
 				CBE4889523AABAC500CEDB81 /* MoreInfoVC.swift in Sources */,
+				0BFEB44523AACCA600FE2767 /* FoodPantryModel.swift in Sources */,
 				CBDF015B23AA94220037D68E /* AppDelegate.swift in Sources */,
 				3C914A2523AAD4810009DBF1 /* Validation.swift in Sources */,
 				CBE4888D23AABA7C00CEDB81 /* MapVC.swift in Sources */,
@@ -721,6 +733,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WastelessKitchen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -739,6 +752,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WastelessKitchen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
