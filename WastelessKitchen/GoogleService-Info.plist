@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>998162697983-980rkhh3rmqtc1b9tf1pn66u78s2glkn.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.998162697983-980rkhh3rmqtc1b9tf1pn66u78s2glkn</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDpHBBf2GMBo9TDq8p2j0n3hfEYDUOx10g</string>
+	<key>GCM_SENDER_ID</key>
+	<string>998162697983</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>The-Best-Programmer-Ever.WastelessKitchen</string>
+	<key>PROJECT_ID</key>
+	<string>wastelesskitchen-8fb4e</string>
+	<key>STORAGE_BUCKET</key>
+	<string>wastelesskitchen-8fb4e.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:998162697983:ios:d6ab786f6dbd8a35a746ca</string>
+	<key>DATABASE_URL</key>
+	<string>https://wastelesskitchen-8fb4e.firebaseio.com</string>
+</dict>
+</plist>
