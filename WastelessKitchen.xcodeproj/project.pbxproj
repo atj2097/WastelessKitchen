@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BFEB44323AACBAF00FE2767 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0BFEB44223AACBAF00FE2767 /* GoogleService-Info.plist */; };
+		0BFEB44523AACCA600FE2767 /* FoodPantryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFEB44423AACCA500FE2767 /* FoodPantryModel.swift */; };
 		43C26E6D11F01416E8C3EDE3 /* Pods_WastelessKitchen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA210E4DA43834D5EA7B7224 /* Pods_WastelessKitchen.framework */; };
 		CBDF015B23AA94220037D68E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF015A23AA94220037D68E /* AppDelegate.swift */; };
 		CBDF015D23AA94220037D68E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF015C23AA94220037D68E /* SceneDelegate.swift */; };
@@ -46,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BFEB44223AACBAF00FE2767 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0BFEB44423AACCA500FE2767 /* FoodPantryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPantryModel.swift; sourceTree = "<group>"; };
 		66DE7DE1D4D64C2E80B5C25C /* Pods-WastelessKitchenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WastelessKitchenTests.debug.xcconfig"; path = "Target Support Files/Pods-WastelessKitchenTests/Pods-WastelessKitchenTests.debug.xcconfig"; sourceTree = "<group>"; };
 		689DCE218888A4E16D6309D8 /* Pods-WastelessKitchen-WastelessKitchenUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WastelessKitchen-WastelessKitchenUITests.release.xcconfig"; path = "Target Support Files/Pods-WastelessKitchen-WastelessKitchenUITests/Pods-WastelessKitchen-WastelessKitchenUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9131FAE9B00BFAC3649E6057 /* Pods-WastelessKitchen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WastelessKitchen.release.xcconfig"; path = "Target Support Files/Pods-WastelessKitchen/Pods-WastelessKitchen.release.xcconfig"; sourceTree = "<group>"; };
@@ -166,6 +170,7 @@
 				CBDF016623AA94230037D68E /* Assets.xcassets */,
 				CBDF016823AA94230037D68E /* LaunchScreen.storyboard */,
 				CBDF016B23AA94230037D68E /* Info.plist */,
+				0BFEB44223AACBAF00FE2767 /* GoogleService-Info.plist */,
 				CBDF016323AA94220037D68E /* WastelessKitchen.xcdatamodeld */,
 			);
 			path = WastelessKitchen;
@@ -244,6 +249,7 @@
 			isa = PBXGroup;
 			children = (
 				CBE4889023AABA9100CEDB81 /* APIProtocol.swift */,
+				0BFEB44423AACCA500FE2767 /* FoodPantryModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -375,6 +381,7 @@
 			files = (
 				CBDF016A23AA94230037D68E /* LaunchScreen.storyboard in Resources */,
 				CBDF016723AA94230037D68E /* Assets.xcassets in Resources */,
+				0BFEB44323AACBAF00FE2767 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +512,7 @@
 				CBE4889123AABA9100CEDB81 /* APIProtocol.swift in Sources */,
 				CBE4889723AABADE00CEDB81 /* FoodCell.swift in Sources */,
 				CBE4889523AABAC500CEDB81 /* MoreInfoVC.swift in Sources */,
+				0BFEB44523AACCA600FE2767 /* FoodPantryModel.swift in Sources */,
 				CBDF015B23AA94220037D68E /* AppDelegate.swift in Sources */,
 				CBE4888D23AABA7C00CEDB81 /* MapVC.swift in Sources */,
 				CBE4888F23AABA8600CEDB81 /* Extension.swift in Sources */,
@@ -681,6 +689,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WastelessKitchen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -699,6 +708,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WastelessKitchen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
