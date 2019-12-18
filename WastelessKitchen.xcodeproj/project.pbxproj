@@ -276,7 +276,6 @@
 				CBDF015423AA94220037D68E /* Frameworks */,
 				CBDF015523AA94220037D68E /* Resources */,
 				F88D85DAE7D4D3841C7114A6 /* [CP] Embed Pods Frameworks */,
-				F26C72AA483C27D1592AA23F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -315,7 +314,6 @@
 				CBDF017823AA94240037D68E /* Frameworks */,
 				CBDF017923AA94240037D68E /* Resources */,
 				68EAE2109D329CC39E94BA73 /* [CP] Embed Pods Frameworks */,
-				0A04493AAEB222B74608F947 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -397,23 +395,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0A04493AAEB222B74608F947 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WastelessKitchen-WastelessKitchenUITests/Pods-WastelessKitchen-WastelessKitchenUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WastelessKitchen-WastelessKitchenUITests/Pods-WastelessKitchen-WastelessKitchenUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WastelessKitchen-WastelessKitchenUITests/Pods-WastelessKitchen-WastelessKitchenUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		68EAE2109D329CC39E94BA73 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -473,23 +454,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F26C72AA483C27D1592AA23F /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WastelessKitchen/Pods-WastelessKitchen-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WastelessKitchen/Pods-WastelessKitchen-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WastelessKitchen/Pods-WastelessKitchen-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F88D85DAE7D4D3841C7114A6 /* [CP] Embed Pods Frameworks */ = {
