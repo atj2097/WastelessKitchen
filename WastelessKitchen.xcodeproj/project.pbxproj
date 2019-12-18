@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		43C26E6D11F01416E8C3EDE3 /* Pods_WastelessKitchen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA210E4DA43834D5EA7B7224 /* Pods_WastelessKitchen.framework */; };
+		CB9163E623AAC6C50022B16B /* PixabayAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9163E523AAC6C50022B16B /* PixabayAPIClient.swift */; };
 		CBDF015B23AA94220037D68E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF015A23AA94220037D68E /* AppDelegate.swift */; };
 		CBDF015D23AA94220037D68E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF015C23AA94220037D68E /* SceneDelegate.swift */; };
 		CBDF016523AA94220037D68E /* WastelessKitchen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CBDF016323AA94220037D68E /* WastelessKitchen.xcdatamodeld */; };
@@ -15,6 +16,15 @@
 		CBDF016A23AA94230037D68E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBDF016823AA94230037D68E /* LaunchScreen.storyboard */; };
 		CBDF017523AA94240037D68E /* WastelessKitchenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF017423AA94240037D68E /* WastelessKitchenTests.swift */; };
 		CBDF018023AA94240037D68E /* WastelessKitchenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF017F23AA94240037D68E /* WastelessKitchenUITests.swift */; };
+		CBDF019723AAA1990037D68E /* InputVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF019623AAA1990037D68E /* InputVC.swift */; };
+		CBE4888B23AABA6A00CEDB81 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE4888A23AABA6A00CEDB81 /* APIClient.swift */; };
+		CBE4888D23AABA7C00CEDB81 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE4888C23AABA7C00CEDB81 /* MapVC.swift */; };
+		CBE4888F23AABA8600CEDB81 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE4888E23AABA8600CEDB81 /* Extension.swift */; };
+		CBE4889123AABA9100CEDB81 /* APIProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE4889023AABA9100CEDB81 /* APIProtocol.swift */; };
+		CBE4889323AABA9A00CEDB81 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE4889223AABA9A00CEDB81 /* StringExtension.swift */; };
+		CBE4889523AABAC500CEDB81 /* MoreInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE4889423AABAC500CEDB81 /* MoreInfoVC.swift */; };
+		CBE4889723AABADE00CEDB81 /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE4889623AABADE00CEDB81 /* FoodCell.swift */; };
+		CBE4889923AABAEE00CEDB81 /* Firebaseauth.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE4889823AABAEE00CEDB81 /* Firebaseauth.swift */; };
 		DB9FF515DBA2DF8EA0EE621A /* Pods_WastelessKitchen_WastelessKitchenUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE5C34F58FBA8F8FC10F486A /* Pods_WastelessKitchen_WastelessKitchenUITests.framework */; };
 		FF49D5638A6F1C8A4596F09A /* Pods_WastelessKitchenTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4ED7F206CC00C4538552C0B /* Pods_WastelessKitchenTests.framework */; };
 /* End PBXBuildFile section */
@@ -46,6 +56,7 @@
 		B767E33BFD87A388C824560A /* Pods-WastelessKitchen-WastelessKitchenUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WastelessKitchen-WastelessKitchenUITests.debug.xcconfig"; path = "Target Support Files/Pods-WastelessKitchen-WastelessKitchenUITests/Pods-WastelessKitchen-WastelessKitchenUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BE5C34F58FBA8F8FC10F486A /* Pods_WastelessKitchen_WastelessKitchenUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WastelessKitchen_WastelessKitchenUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA210E4DA43834D5EA7B7224 /* Pods_WastelessKitchen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WastelessKitchen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB9163E523AAC6C50022B16B /* PixabayAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixabayAPIClient.swift; sourceTree = "<group>"; };
 		CBDF015723AA94220037D68E /* WastelessKitchen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WastelessKitchen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBDF015A23AA94220037D68E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBDF015C23AA94220037D68E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +70,15 @@
 		CBDF017B23AA94240037D68E /* WastelessKitchenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WastelessKitchenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBDF017F23AA94240037D68E /* WastelessKitchenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WastelessKitchenUITests.swift; sourceTree = "<group>"; };
 		CBDF018123AA94240037D68E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBDF019623AAA1990037D68E /* InputVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputVC.swift; sourceTree = "<group>"; };
+		CBE4888A23AABA6A00CEDB81 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		CBE4888C23AABA7C00CEDB81 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		CBE4888E23AABA8600CEDB81 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		CBE4889023AABA9100CEDB81 /* APIProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIProtocol.swift; sourceTree = "<group>"; };
+		CBE4889223AABA9A00CEDB81 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		CBE4889423AABAC500CEDB81 /* MoreInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreInfoVC.swift; sourceTree = "<group>"; };
+		CBE4889623AABADE00CEDB81 /* FoodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCell.swift; sourceTree = "<group>"; };
+		CBE4889823AABAEE00CEDB81 /* Firebaseauth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firebaseauth.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +130,13 @@
 				AEED1D28901B4C09DBE76C73 /* Pods-WastelessKitchenTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		CB9163E423AAC3E90022B16B /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 		CBDF014E23AA94220037D68E = {
@@ -174,6 +201,7 @@
 		CBDF018D23AA9ED80037D68E /* FirebaseHelpers */ = {
 			isa = PBXGroup;
 			children = (
+				CBE4889823AABAEE00CEDB81 /* Firebaseauth.swift */,
 			);
 			path = FirebaseHelpers;
 			sourceTree = "<group>";
@@ -181,6 +209,7 @@
 		CBDF018E23AA9EE50037D68E /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				CB9163E423AAC3E90022B16B /* Authentication */,
 				CBDF019123AA9EF50037D68E /* TabControllers */,
 				CBDF019023AA9EEF0037D68E /* DVCs */,
 				CBDF018F23AA9EEB0037D68E /* Cells */,
@@ -191,6 +220,7 @@
 		CBDF018F23AA9EEB0037D68E /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				CBE4889623AABADE00CEDB81 /* FoodCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -198,6 +228,7 @@
 		CBDF019023AA9EEF0037D68E /* DVCs */ = {
 			isa = PBXGroup;
 			children = (
+				CBE4889423AABAC500CEDB81 /* MoreInfoVC.swift */,
 			);
 			path = DVCs;
 			sourceTree = "<group>";
@@ -205,6 +236,8 @@
 		CBDF019123AA9EF50037D68E /* TabControllers */ = {
 			isa = PBXGroup;
 			children = (
+				CBDF019623AAA1990037D68E /* InputVC.swift */,
+				CBE4888C23AABA7C00CEDB81 /* MapVC.swift */,
 			);
 			path = TabControllers;
 			sourceTree = "<group>";
@@ -212,6 +245,7 @@
 		CBDF019223AA9F0A0037D68E /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				CBE4889223AABA9A00CEDB81 /* StringExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -219,6 +253,7 @@
 		CBDF019323AA9F4C0037D68E /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				CBE4889023AABA9100CEDB81 /* APIProtocol.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -226,6 +261,7 @@
 		CBDF019423AA9F880037D68E /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				CBE4888E23AABA8600CEDB81 /* Extension.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -233,6 +269,8 @@
 		CBDF019523AAA0990037D68E /* APIHelpers */ = {
 			isa = PBXGroup;
 			children = (
+				CBE4888A23AABA6A00CEDB81 /* APIClient.swift */,
+				CB9163E523AAC6C50022B16B /* PixabayAPIClient.swift */,
 			);
 			path = APIHelpers;
 			sourceTree = "<group>";
@@ -475,9 +513,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBE4889123AABA9100CEDB81 /* APIProtocol.swift in Sources */,
+				CBE4889723AABADE00CEDB81 /* FoodCell.swift in Sources */,
+				CBE4889523AABAC500CEDB81 /* MoreInfoVC.swift in Sources */,
 				CBDF015B23AA94220037D68E /* AppDelegate.swift in Sources */,
+				CBE4888D23AABA7C00CEDB81 /* MapVC.swift in Sources */,
+				CBE4888F23AABA8600CEDB81 /* Extension.swift in Sources */,
+				CBDF019723AAA1990037D68E /* InputVC.swift in Sources */,
+				CBE4889323AABA9A00CEDB81 /* StringExtension.swift in Sources */,
+				CBE4889923AABAEE00CEDB81 /* Firebaseauth.swift in Sources */,
 				CBDF016523AA94220037D68E /* WastelessKitchen.xcdatamodeld in Sources */,
+				CBE4888B23AABA6A00CEDB81 /* APIClient.swift in Sources */,
 				CBDF015D23AA94220037D68E /* SceneDelegate.swift in Sources */,
+				CB9163E623AAC6C50022B16B /* PixabayAPIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
