@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43C26E6D11F01416E8C3EDE3 /* Pods_WastelessKitchen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA210E4DA43834D5EA7B7224 /* Pods_WastelessKitchen.framework */; };
+		CBDF015B23AA94220037D68E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF015A23AA94220037D68E /* AppDelegate.swift */; };
+		CBDF015D23AA94220037D68E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF015C23AA94220037D68E /* SceneDelegate.swift */; };
+		CBDF015F23AA94220037D68E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF015E23AA94220037D68E /* ViewController.swift */; };
+		CBDF016223AA94220037D68E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBDF016023AA94220037D68E /* Main.storyboard */; };
+		CBDF016523AA94220037D68E /* WastelessKitchen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CBDF016323AA94220037D68E /* WastelessKitchen.xcdatamodeld */; };
+		CBDF016723AA94230037D68E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBDF016623AA94230037D68E /* Assets.xcassets */; };
+		CBDF016A23AA94230037D68E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBDF016823AA94230037D68E /* LaunchScreen.storyboard */; };
+		CBDF017523AA94240037D68E /* WastelessKitchenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF017423AA94240037D68E /* WastelessKitchenTests.swift */; };
+		CBDF018023AA94240037D68E /* WastelessKitchenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF017F23AA94240037D68E /* WastelessKitchenUITests.swift */; };
+		DB9FF515DBA2DF8EA0EE621A /* Pods_WastelessKitchen_WastelessKitchenUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE5C34F58FBA8F8FC10F486A /* Pods_WastelessKitchen_WastelessKitchenUITests.framework */; };
+		FF49D5638A6F1C8A4596F09A /* Pods_WastelessKitchenTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4ED7F206CC00C4538552C0B /* Pods_WastelessKitchenTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBDF017123AA94240037D68E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBDF014F23AA94220037D68E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBDF015623AA94220037D68E;
+			remoteInfo = WastelessKitchen;
+		};
+		CBDF017C23AA94240037D68E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBDF014F23AA94220037D68E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBDF015623AA94220037D68E;
+			remoteInfo = WastelessKitchen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66DE7DE1D4D64C2E80B5C25C /* Pods-WastelessKitchenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WastelessKitchenTests.debug.xcconfig"; path = "Target Support Files/Pods-WastelessKitchenTests/Pods-WastelessKitchenTests.debug.xcconfig"; sourceTree = "<group>"; };
+		689DCE218888A4E16D6309D8 /* Pods-WastelessKitchen-WastelessKitchenUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WastelessKitchen-WastelessKitchenUITests.release.xcconfig"; path = "Target Support Files/Pods-WastelessKitchen-WastelessKitchenUITests/Pods-WastelessKitchen-WastelessKitchenUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9131FAE9B00BFAC3649E6057 /* Pods-WastelessKitchen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WastelessKitchen.release.xcconfig"; path = "Target Support Files/Pods-WastelessKitchen/Pods-WastelessKitchen.release.xcconfig"; sourceTree = "<group>"; };
+		9CA303D572E5AE4159341664 /* Pods-WastelessKitchen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WastelessKitchen.debug.xcconfig"; path = "Target Support Files/Pods-WastelessKitchen/Pods-WastelessKitchen.debug.xcconfig"; sourceTree = "<group>"; };
+		AEED1D28901B4C09DBE76C73 /* Pods-WastelessKitchenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WastelessKitchenTests.release.xcconfig"; path = "Target Support Files/Pods-WastelessKitchenTests/Pods-WastelessKitchenTests.release.xcconfig"; sourceTree = "<group>"; };
+		B4ED7F206CC00C4538552C0B /* Pods_WastelessKitchenTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WastelessKitchenTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B767E33BFD87A388C824560A /* Pods-WastelessKitchen-WastelessKitchenUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WastelessKitchen-WastelessKitchenUITests.debug.xcconfig"; path = "Target Support Files/Pods-WastelessKitchen-WastelessKitchenUITests/Pods-WastelessKitchen-WastelessKitchenUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE5C34F58FBA8F8FC10F486A /* Pods_WastelessKitchen_WastelessKitchenUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WastelessKitchen_WastelessKitchenUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA210E4DA43834D5EA7B7224 /* Pods_WastelessKitchen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WastelessKitchen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBDF015723AA94220037D68E /* WastelessKitchen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WastelessKitchen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBDF015A23AA94220037D68E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CBDF015C23AA94220037D68E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CBDF015E23AA94220037D68E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CBDF016123AA94220037D68E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBDF016423AA94220037D68E /* WastelessKitchen.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WastelessKitchen.xcdatamodel; sourceTree = "<group>"; };
+		CBDF016623AA94230037D68E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBDF016923AA94230037D68E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBDF016B23AA94230037D68E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBDF017023AA94240037D68E /* WastelessKitchenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WastelessKitchenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBDF017423AA94240037D68E /* WastelessKitchenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WastelessKitchenTests.swift; sourceTree = "<group>"; };
+		CBDF017623AA94240037D68E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBDF017B23AA94240037D68E /* WastelessKitchenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WastelessKitchenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBDF017F23AA94240037D68E /* WastelessKitchenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WastelessKitchenUITests.swift; sourceTree = "<group>"; };
+		CBDF018123AA94240037D68E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBDF015423AA94220037D68E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43C26E6D11F01416E8C3EDE3 /* Pods_WastelessKitchen.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBDF016D23AA94240037D68E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF49D5638A6F1C8A4596F09A /* Pods_WastelessKitchenTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBDF017823AA94240037D68E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB9FF515DBA2DF8EA0EE621A /* Pods_WastelessKitchen_WastelessKitchenUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		505D9E6F8AD590FF74452067 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA210E4DA43834D5EA7B7224 /* Pods_WastelessKitchen.framework */,
+				BE5C34F58FBA8F8FC10F486A /* Pods_WastelessKitchen_WastelessKitchenUITests.framework */,
+				B4ED7F206CC00C4538552C0B /* Pods_WastelessKitchenTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAF0B28E283913FB0EB03697 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CA303D572E5AE4159341664 /* Pods-WastelessKitchen.debug.xcconfig */,
+				9131FAE9B00BFAC3649E6057 /* Pods-WastelessKitchen.release.xcconfig */,
+				B767E33BFD87A388C824560A /* Pods-WastelessKitchen-WastelessKitchenUITests.debug.xcconfig */,
+				689DCE218888A4E16D6309D8 /* Pods-WastelessKitchen-WastelessKitchenUITests.release.xcconfig */,
+				66DE7DE1D4D64C2E80B5C25C /* Pods-WastelessKitchenTests.debug.xcconfig */,
+				AEED1D28901B4C09DBE76C73 /* Pods-WastelessKitchenTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CBDF014E23AA94220037D68E = {
+			isa = PBXGroup;
+			children = (
+				CBDF015923AA94220037D68E /* WastelessKitchen */,
+				CBDF017323AA94240037D68E /* WastelessKitchenTests */,
+				CBDF017E23AA94240037D68E /* WastelessKitchenUITests */,
+				CBDF015823AA94220037D68E /* Products */,
+				BAF0B28E283913FB0EB03697 /* Pods */,
+				505D9E6F8AD590FF74452067 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CBDF015823AA94220037D68E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBDF015723AA94220037D68E /* WastelessKitchen.app */,
+				CBDF017023AA94240037D68E /* WastelessKitchenTests.xctest */,
+				CBDF017B23AA94240037D68E /* WastelessKitchenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBDF015923AA94220037D68E /* WastelessKitchen */ = {
+			isa = PBXGroup;
+			children = (
+				CBDF015A23AA94220037D68E /* AppDelegate.swift */,
+				CBDF015C23AA94220037D68E /* SceneDelegate.swift */,
+				CBDF015E23AA94220037D68E /* ViewController.swift */,
+				CBDF016023AA94220037D68E /* Main.storyboard */,
+				CBDF016623AA94230037D68E /* Assets.xcassets */,
+				CBDF016823AA94230037D68E /* LaunchScreen.storyboard */,
+				CBDF016B23AA94230037D68E /* Info.plist */,
+				CBDF016323AA94220037D68E /* WastelessKitchen.xcdatamodeld */,
+			);
+			path = WastelessKitchen;
+			sourceTree = "<group>";
+		};
+		CBDF017323AA94240037D68E /* WastelessKitchenTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBDF017423AA94240037D68E /* WastelessKitchenTests.swift */,
+				CBDF017623AA94240037D68E /* Info.plist */,
+			);
+			path = WastelessKitchenTests;
+			sourceTree = "<group>";
+		};
+		CBDF017E23AA94240037D68E /* WastelessKitchenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CBDF017F23AA94240037D68E /* WastelessKitchenUITests.swift */,
+				CBDF018123AA94240037D68E /* Info.plist */,
+			);
+			path = WastelessKitchenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBDF015623AA94220037D68E /* WastelessKitchen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBDF018423AA94240037D68E /* Build configuration list for PBXNativeTarget "WastelessKitchen" */;
+			buildPhases = (
+				B4BC7FD15E3D5D9676F07DCC /* [CP] Check Pods Manifest.lock */,
+				CBDF015323AA94220037D68E /* Sources */,
+				CBDF015423AA94220037D68E /* Frameworks */,
+				CBDF015523AA94220037D68E /* Resources */,
+				F88D85DAE7D4D3841C7114A6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WastelessKitchen;
+			productName = WastelessKitchen;
+			productReference = CBDF015723AA94220037D68E /* WastelessKitchen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBDF016F23AA94240037D68E /* WastelessKitchenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBDF018723AA94240037D68E /* Build configuration list for PBXNativeTarget "WastelessKitchenTests" */;
+			buildPhases = (
+				FDFBCD4ACFAA0D320EA2E3A1 /* [CP] Check Pods Manifest.lock */,
+				CBDF016C23AA94240037D68E /* Sources */,
+				CBDF016D23AA94240037D68E /* Frameworks */,
+				CBDF016E23AA94240037D68E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBDF017223AA94240037D68E /* PBXTargetDependency */,
+			);
+			name = WastelessKitchenTests;
+			productName = WastelessKitchenTests;
+			productReference = CBDF017023AA94240037D68E /* WastelessKitchenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CBDF017A23AA94240037D68E /* WastelessKitchenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBDF018A23AA94240037D68E /* Build configuration list for PBXNativeTarget "WastelessKitchenUITests" */;
+			buildPhases = (
+				760A30740D85D4113CC1EF98 /* [CP] Check Pods Manifest.lock */,
+				CBDF017723AA94240037D68E /* Sources */,
+				CBDF017823AA94240037D68E /* Frameworks */,
+				CBDF017923AA94240037D68E /* Resources */,
+				68EAE2109D329CC39E94BA73 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBDF017D23AA94240037D68E /* PBXTargetDependency */,
+			);
+			name = WastelessKitchenUITests;
+			productName = WastelessKitchenUITests;
+			productReference = CBDF017B23AA94240037D68E /* WastelessKitchenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBDF014F23AA94220037D68E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = God;
+				TargetAttributes = {
+					CBDF015623AA94220037D68E = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					CBDF016F23AA94240037D68E = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = CBDF015623AA94220037D68E;
+					};
+					CBDF017A23AA94240037D68E = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = CBDF015623AA94220037D68E;
+					};
+				};
+			};
+			buildConfigurationList = CBDF015223AA94220037D68E /* Build configuration list for PBXProject "WastelessKitchen" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBDF014E23AA94220037D68E;
+			productRefGroup = CBDF015823AA94220037D68E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBDF015623AA94220037D68E /* WastelessKitchen */,
+				CBDF016F23AA94240037D68E /* WastelessKitchenTests */,
+				CBDF017A23AA94240037D68E /* WastelessKitchenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBDF015523AA94220037D68E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBDF016A23AA94230037D68E /* LaunchScreen.storyboard in Resources */,
+				CBDF016723AA94230037D68E /* Assets.xcassets in Resources */,
+				CBDF016223AA94220037D68E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBDF016E23AA94240037D68E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBDF017923AA94240037D68E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		68EAE2109D329CC39E94BA73 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WastelessKitchen-WastelessKitchenUITests/Pods-WastelessKitchen-WastelessKitchenUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WastelessKitchen-WastelessKitchenUITests/Pods-WastelessKitchen-WastelessKitchenUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WastelessKitchen-WastelessKitchenUITests/Pods-WastelessKitchen-WastelessKitchenUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		760A30740D85D4113CC1EF98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WastelessKitchen-WastelessKitchenUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4BC7FD15E3D5D9676F07DCC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WastelessKitchen-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F88D85DAE7D4D3841C7114A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WastelessKitchen/Pods-WastelessKitchen-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WastelessKitchen/Pods-WastelessKitchen-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WastelessKitchen/Pods-WastelessKitchen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDFBCD4ACFAA0D320EA2E3A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WastelessKitchenTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBDF015323AA94220037D68E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBDF015F23AA94220037D68E /* ViewController.swift in Sources */,
+				CBDF015B23AA94220037D68E /* AppDelegate.swift in Sources */,
+				CBDF016523AA94220037D68E /* WastelessKitchen.xcdatamodeld in Sources */,
+				CBDF015D23AA94220037D68E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBDF016C23AA94240037D68E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBDF017523AA94240037D68E /* WastelessKitchenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBDF017723AA94240037D68E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBDF018023AA94240037D68E /* WastelessKitchenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBDF017223AA94240037D68E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBDF015623AA94220037D68E /* WastelessKitchen */;
+			targetProxy = CBDF017123AA94240037D68E /* PBXContainerItemProxy */;
+		};
+		CBDF017D23AA94240037D68E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBDF015623AA94220037D68E /* WastelessKitchen */;
+			targetProxy = CBDF017C23AA94240037D68E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBDF016023AA94220037D68E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBDF016123AA94220037D68E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBDF016823AA94230037D68E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBDF016923AA94230037D68E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBDF018223AA94240037D68E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CBDF018323AA94240037D68E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBDF018523AA94240037D68E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CA303D572E5AE4159341664 /* Pods-WastelessKitchen.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WastelessKitchen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Best-Programmer-Ever.WastelessKitchen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBDF018623AA94240037D68E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9131FAE9B00BFAC3649E6057 /* Pods-WastelessKitchen.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WastelessKitchen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Best-Programmer-Ever.WastelessKitchen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CBDF018823AA94240037D68E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66DE7DE1D4D64C2E80B5C25C /* Pods-WastelessKitchenTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WastelessKitchenTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Best-Programmer-Ever.WastelessKitchenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WastelessKitchen.app/WastelessKitchen";
+			};
+			name = Debug;
+		};
+		CBDF018923AA94240037D68E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEED1D28901B4C09DBE76C73 /* Pods-WastelessKitchenTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WastelessKitchenTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Best-Programmer-Ever.WastelessKitchenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WastelessKitchen.app/WastelessKitchen";
+			};
+			name = Release;
+		};
+		CBDF018B23AA94240037D68E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B767E33BFD87A388C824560A /* Pods-WastelessKitchen-WastelessKitchenUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WastelessKitchenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Best-Programmer-Ever.WastelessKitchenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WastelessKitchen;
+			};
+			name = Debug;
+		};
+		CBDF018C23AA94240037D68E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 689DCE218888A4E16D6309D8 /* Pods-WastelessKitchen-WastelessKitchenUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WastelessKitchenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Best-Programmer-Ever.WastelessKitchenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WastelessKitchen;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBDF015223AA94220037D68E /* Build configuration list for PBXProject "WastelessKitchen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBDF018223AA94240037D68E /* Debug */,
+				CBDF018323AA94240037D68E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBDF018423AA94240037D68E /* Build configuration list for PBXNativeTarget "WastelessKitchen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBDF018523AA94240037D68E /* Debug */,
+				CBDF018623AA94240037D68E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBDF018723AA94240037D68E /* Build configuration list for PBXNativeTarget "WastelessKitchenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBDF018823AA94240037D68E /* Debug */,
+				CBDF018923AA94240037D68E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBDF018A23AA94240037D68E /* Build configuration list for PBXNativeTarget "WastelessKitchenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBDF018B23AA94240037D68E /* Debug */,
+				CBDF018C23AA94240037D68E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CBDF016323AA94220037D68E /* WastelessKitchen.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CBDF016423AA94220037D68E /* WastelessKitchen.xcdatamodel */,
+			);
+			currentVersion = CBDF016423AA94220037D68E /* WastelessKitchen.xcdatamodel */;
+			path = WastelessKitchen.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CBDF014F23AA94220037D68E /* Project object */;
+}
