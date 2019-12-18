@@ -7,3 +7,9 @@
 //
 
 import Foundation
+protocol FoodData {
+    var imgURL: String {get}
+    var foodName: String {get}
+    var foodDesc: String {get}
+    var expDate: String {get}
+}
