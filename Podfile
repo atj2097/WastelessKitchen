@@ -8,7 +8,8 @@ target 'WastelessKitchen' do
   # Pods for WastelessKitchen
 	pod 'Firebase/Auth'
 	pod 'Firebase/Firestore' 
-	pod 'Firebase/Storage' 
+	pod 'Firebase/Storage'  
+	pod "CalendarView"
   target 'WastelessKitchenTests' do
     inherit! :search_paths
     # Pods for testing
