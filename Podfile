@@ -9,7 +9,8 @@ target 'WastelessKitchen' do
 	pod 'Firebase/Auth'
 	pod 'Firebase/Firestore' 
 	pod 'Firebase/Storage'  
-	pod "CalendarView"
+	pod "CalendarView" 
+	pod 'Kingfisher', '~> 5.0'
   target 'WastelessKitchenTests' do
     inherit! :search_paths
     # Pods for testing
