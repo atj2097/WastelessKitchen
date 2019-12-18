@@ -20,15 +20,17 @@ class InputVC: UIViewController {
         return cv
     }()
     
+    lazy var createButton: UIButton = {
+        let button = UIButton()
+        return button
+    }()
+    
    var pictureArray = [String]()
-    
-    
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
         constraints()
-        // Do any additional setup after loading the view.
     }
     
     private func constraints() {
@@ -42,17 +44,16 @@ class InputVC: UIViewController {
         
         [collectionView.topAnchor.constraint(equalTo: datePicker.bottomAnchor, constant: 20),collectionView.centerXAnchor.constraint(equalTo: self.view.centerXAnchor)].forEach({$0.isActive = true})
     }
-    
-    
-    
-    }
+
+}
 extension InputVC: UICollectionViewDelegate, UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 1
+        return pictureArray.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = UICollectionViewCell()
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "FoodCell", for: indexPath) as! FoodCell
+        
         return cell
     }
     

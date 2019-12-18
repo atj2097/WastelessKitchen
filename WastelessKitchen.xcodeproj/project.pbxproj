@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		43C26E6D11F01416E8C3EDE3 /* Pods_WastelessKitchen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA210E4DA43834D5EA7B7224 /* Pods_WastelessKitchen.framework */; };
+		CB9163E623AAC6C50022B16B /* PixabayAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9163E523AAC6C50022B16B /* PixabayAPIClient.swift */; };
 		CBDF015B23AA94220037D68E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF015A23AA94220037D68E /* AppDelegate.swift */; };
 		CBDF015D23AA94220037D68E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF015C23AA94220037D68E /* SceneDelegate.swift */; };
 		CBDF016523AA94220037D68E /* WastelessKitchen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CBDF016323AA94220037D68E /* WastelessKitchen.xcdatamodeld */; };
@@ -55,6 +56,7 @@
 		B767E33BFD87A388C824560A /* Pods-WastelessKitchen-WastelessKitchenUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WastelessKitchen-WastelessKitchenUITests.debug.xcconfig"; path = "Target Support Files/Pods-WastelessKitchen-WastelessKitchenUITests/Pods-WastelessKitchen-WastelessKitchenUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BE5C34F58FBA8F8FC10F486A /* Pods_WastelessKitchen_WastelessKitchenUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WastelessKitchen_WastelessKitchenUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA210E4DA43834D5EA7B7224 /* Pods_WastelessKitchen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WastelessKitchen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB9163E523AAC6C50022B16B /* PixabayAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixabayAPIClient.swift; sourceTree = "<group>"; };
 		CBDF015723AA94220037D68E /* WastelessKitchen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WastelessKitchen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBDF015A23AA94220037D68E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBDF015C23AA94220037D68E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -130,6 +132,13 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		CB9163E423AAC3E90022B16B /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
 		CBDF014E23AA94220037D68E = {
 			isa = PBXGroup;
 			children = (
@@ -200,6 +209,7 @@
 		CBDF018E23AA9EE50037D68E /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				CB9163E423AAC3E90022B16B /* Authentication */,
 				CBDF019123AA9EF50037D68E /* TabControllers */,
 				CBDF019023AA9EEF0037D68E /* DVCs */,
 				CBDF018F23AA9EEB0037D68E /* Cells */,
@@ -260,6 +270,7 @@
 			isa = PBXGroup;
 			children = (
 				CBE4888A23AABA6A00CEDB81 /* APIClient.swift */,
+				CB9163E523AAC6C50022B16B /* PixabayAPIClient.swift */,
 			);
 			path = APIHelpers;
 			sourceTree = "<group>";
@@ -514,6 +525,7 @@
 				CBDF016523AA94220037D68E /* WastelessKitchen.xcdatamodeld in Sources */,
 				CBE4888B23AABA6A00CEDB81 /* APIClient.swift in Sources */,
 				CBDF015D23AA94220037D68E /* SceneDelegate.swift in Sources */,
+				CB9163E623AAC6C50022B16B /* PixabayAPIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
