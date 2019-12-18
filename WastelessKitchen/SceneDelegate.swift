@@ -1,11 +1,3 @@
-//
-//  SceneDelegate.swift
-//  WastelessKitchen
-//
-//  Created by God on 12/18/19.
-//  Copyright © 2019 God. All rights reserved.
-//
-
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
@@ -17,7 +9,14 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let _ = (scene as? UIWindowScene) else { return }
+        guard let scene = (scene as? UIWindowScene) else { return }
+      window = UIWindow(frame: UIScreen.main.bounds)
+         window?.windowScene = scene
+
+         //MARK: TODO - switch root view controller on firebase current user.
+         //Discussion - is the iOS currentUser object token-safe with the authentication service?
+         window?.rootViewController = SignUpVC()
+         window?.makeKeyAndVisible()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
