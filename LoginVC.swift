@@ -9,6 +9,7 @@ class LoginVC: UIViewController {
     lazy var titleLabel: UILabel = {
         let label = UILabel()
         label.numberOfLines = 0
+        label.lineBreakMode = .byWordWrapping
         label.text = "Wasteless Kitchen"
         label.font = UIFont(name: "PingFang TC", size: 60)
         label.textColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
@@ -32,7 +33,7 @@ class LoginVC: UIViewController {
     
     lazy var emailTextField: UITextField = {
         let textField = UITextField()
-        textField.attributedPlaceholder = NSAttributedString(string: " Enter Email", attributes: [NSAttributedString.Key.foregroundColor: UIColor.white])
+        textField.attributedPlaceholder = NSAttributedString(string: " Enter Email", attributes: [NSAttributedString.Key.foregroundColor: UIColor.gray])
         textField.font = UIFont(name: "PingFang TC", size: 20)
       textField.backgroundColor = .clear
       //background opacity set to 25%
@@ -46,7 +47,7 @@ class LoginVC: UIViewController {
 
     lazy var passwordTextField: UITextField = {
         let textField = UITextField()
-        textField.attributedPlaceholder = NSAttributedString(string: " Enter Password", attributes: [NSAttributedString.Key.foregroundColor: UIColor.white])
+        textField.attributedPlaceholder = NSAttributedString(string: " Enter Password", attributes: [NSAttributedString.Key.foregroundColor: UIColor.gray])
         textField.font = UIFont(name: "PingFang TC", size: 20)
       textField.backgroundColor = .clear
         textField.layer.borderWidth = 2
@@ -161,10 +162,10 @@ class LoginVC: UIViewController {
         view.addSubview(titleLabel)
         titleLabel.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
-          titleLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 200),
+          titleLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 150),
           titleLabel.leadingAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.leadingAnchor),
           titleLabel.trailingAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.trailingAnchor),
-          titleLabel.heightAnchor.constraint(equalToConstant: 150)
+          titleLabel.heightAnchor.constraint(equalToConstant: 250)
         ])
     }
   
