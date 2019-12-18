@@ -7,9 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BFEB44323AACBAF00FE2767 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0BFEB44223AACBAF00FE2767 /* GoogleService-Info.plist */; };
+
 		0BFEB44523AACCA600FE2767 /* FoodPantryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFEB44423AACCA500FE2767 /* FoodPantryModel.swift */; };
+		3C914A1F23AAD3D80009DBF1 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C914A1E23AAD3D80009DBF1 /* LoginVC.swift */; };
+		3C914A2123AAD41F0009DBF1 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C914A2023AAD41F0009DBF1 /* SignUpVC.swift */; };
+		3C914A2323AAD4610009DBF1 /* FirestoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C914A2223AAD4610009DBF1 /* FirestoreService.swift */; };
+		3C914A2523AAD4810009DBF1 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C914A2423AAD4810009DBF1 /* Validation.swift */; };
+		3C914A2723AAD4960009DBF1 /* AppUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C914A2623AAD4960009DBF1 /* AppUser.swift */; };
+		3C914A2923AAD58B0009DBF1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C914A2823AAD58B0009DBF1 /* GoogleService-Info.plist */; };
 		43C26E6D11F01416E8C3EDE3 /* Pods_WastelessKitchen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA210E4DA43834D5EA7B7224 /* Pods_WastelessKitchen.framework */; };
+		CB9163E623AAC6C50022B16B /* PixabayAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9163E523AAC6C50022B16B /* PixabayAPIClient.swift */; };
+		CB9163E823AAD13C0022B16B /* PantryVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9163E723AAD13C0022B16B /* PantryVCViewController.swift */; };
 		CBDF015B23AA94220037D68E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF015A23AA94220037D68E /* AppDelegate.swift */; };
 		CBDF015D23AA94220037D68E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF015C23AA94220037D68E /* SceneDelegate.swift */; };
 		CBDF016523AA94220037D68E /* WastelessKitchen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CBDF016323AA94220037D68E /* WastelessKitchen.xcdatamodeld */; };
@@ -48,8 +56,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0BFEB44223AACBAF00FE2767 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+
 		0BFEB44423AACCA500FE2767 /* FoodPantryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPantryModel.swift; sourceTree = "<group>"; };
+
+		3C914A1E23AAD3D80009DBF1 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = SOURCE_ROOT; };
+		3C914A2023AAD41F0009DBF1 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = SOURCE_ROOT; };
+		3C914A2223AAD4610009DBF1 /* FirestoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreService.swift; sourceTree = "<group>"; };
+		3C914A2423AAD4810009DBF1 /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		3C914A2623AAD4960009DBF1 /* AppUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUser.swift; sourceTree = "<group>"; };
+		3C914A2823AAD58B0009DBF1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		66DE7DE1D4D64C2E80B5C25C /* Pods-WastelessKitchenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WastelessKitchenTests.debug.xcconfig"; path = "Target Support Files/Pods-WastelessKitchenTests/Pods-WastelessKitchenTests.debug.xcconfig"; sourceTree = "<group>"; };
 		689DCE218888A4E16D6309D8 /* Pods-WastelessKitchen-WastelessKitchenUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WastelessKitchen-WastelessKitchenUITests.release.xcconfig"; path = "Target Support Files/Pods-WastelessKitchen-WastelessKitchenUITests/Pods-WastelessKitchen-WastelessKitchenUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9131FAE9B00BFAC3649E6057 /* Pods-WastelessKitchen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WastelessKitchen.release.xcconfig"; path = "Target Support Files/Pods-WastelessKitchen/Pods-WastelessKitchen.release.xcconfig"; sourceTree = "<group>"; };
@@ -59,6 +74,8 @@
 		B767E33BFD87A388C824560A /* Pods-WastelessKitchen-WastelessKitchenUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WastelessKitchen-WastelessKitchenUITests.debug.xcconfig"; path = "Target Support Files/Pods-WastelessKitchen-WastelessKitchenUITests/Pods-WastelessKitchen-WastelessKitchenUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BE5C34F58FBA8F8FC10F486A /* Pods_WastelessKitchen_WastelessKitchenUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WastelessKitchen_WastelessKitchenUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA210E4DA43834D5EA7B7224 /* Pods_WastelessKitchen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WastelessKitchen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB9163E523AAC6C50022B16B /* PixabayAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixabayAPIClient.swift; sourceTree = "<group>"; };
+		CB9163E723AAD13C0022B16B /* PantryVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantryVCViewController.swift; sourceTree = "<group>"; };
 		CBDF015723AA94220037D68E /* WastelessKitchen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WastelessKitchen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBDF015A23AA94220037D68E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBDF015C23AA94220037D68E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -134,6 +151,15 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		CB9163E423AAC3E90022B16B /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				3C914A1E23AAD3D80009DBF1 /* LoginVC.swift */,
+				3C914A2023AAD41F0009DBF1 /* SignUpVC.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
 		CBDF014E23AA94220037D68E = {
 			isa = PBXGroup;
 			children = (
@@ -170,7 +196,9 @@
 				CBDF016623AA94230037D68E /* Assets.xcassets */,
 				CBDF016823AA94230037D68E /* LaunchScreen.storyboard */,
 				CBDF016B23AA94230037D68E /* Info.plist */,
-				0BFEB44223AACBAF00FE2767 /* GoogleService-Info.plist */,
+
+				3C914A2823AAD58B0009DBF1 /* GoogleService-Info.plist */,
+
 				CBDF016323AA94220037D68E /* WastelessKitchen.xcdatamodeld */,
 			);
 			path = WastelessKitchen;
@@ -198,6 +226,8 @@
 			isa = PBXGroup;
 			children = (
 				CBE4889823AABAEE00CEDB81 /* Firebaseauth.swift */,
+				3C914A2223AAD4610009DBF1 /* FirestoreService.swift */,
+				3C914A2423AAD4810009DBF1 /* Validation.swift */,
 			);
 			path = FirebaseHelpers;
 			sourceTree = "<group>";
@@ -205,6 +235,7 @@
 		CBDF018E23AA9EE50037D68E /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				CB9163E423AAC3E90022B16B /* Authentication */,
 				CBDF019123AA9EF50037D68E /* TabControllers */,
 				CBDF019023AA9EEF0037D68E /* DVCs */,
 				CBDF018F23AA9EEB0037D68E /* Cells */,
@@ -233,6 +264,7 @@
 			children = (
 				CBDF019623AAA1990037D68E /* InputVC.swift */,
 				CBE4888C23AABA7C00CEDB81 /* MapVC.swift */,
+				CB9163E723AAD13C0022B16B /* PantryVCViewController.swift */,
 			);
 			path = TabControllers;
 			sourceTree = "<group>";
@@ -249,7 +281,10 @@
 			isa = PBXGroup;
 			children = (
 				CBE4889023AABA9100CEDB81 /* APIProtocol.swift */,
+
 				0BFEB44423AACCA500FE2767 /* FoodPantryModel.swift */,
+
+				3C914A2623AAD4960009DBF1 /* AppUser.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -266,6 +301,7 @@
 			isa = PBXGroup;
 			children = (
 				CBE4888A23AABA6A00CEDB81 /* APIClient.swift */,
+				CB9163E523AAC6C50022B16B /* PixabayAPIClient.swift */,
 			);
 			path = APIHelpers;
 			sourceTree = "<group>";
@@ -379,6 +415,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C914A2923AAD58B0009DBF1 /* GoogleService-Info.plist in Resources */,
 				CBDF016A23AA94230037D68E /* LaunchScreen.storyboard in Resources */,
 				CBDF016723AA94230037D68E /* Assets.xcassets in Resources */,
 				0BFEB44323AACBAF00FE2767 /* GoogleService-Info.plist in Resources */,
@@ -514,14 +551,21 @@
 				CBE4889523AABAC500CEDB81 /* MoreInfoVC.swift in Sources */,
 				0BFEB44523AACCA600FE2767 /* FoodPantryModel.swift in Sources */,
 				CBDF015B23AA94220037D68E /* AppDelegate.swift in Sources */,
+				3C914A2523AAD4810009DBF1 /* Validation.swift in Sources */,
 				CBE4888D23AABA7C00CEDB81 /* MapVC.swift in Sources */,
 				CBE4888F23AABA8600CEDB81 /* Extension.swift in Sources */,
 				CBDF019723AAA1990037D68E /* InputVC.swift in Sources */,
 				CBE4889323AABA9A00CEDB81 /* StringExtension.swift in Sources */,
+				3C914A2123AAD41F0009DBF1 /* SignUpVC.swift in Sources */,
 				CBE4889923AABAEE00CEDB81 /* Firebaseauth.swift in Sources */,
+				3C914A2323AAD4610009DBF1 /* FirestoreService.swift in Sources */,
+				CB9163E823AAD13C0022B16B /* PantryVCViewController.swift in Sources */,
 				CBDF016523AA94220037D68E /* WastelessKitchen.xcdatamodeld in Sources */,
 				CBE4888B23AABA6A00CEDB81 /* APIClient.swift in Sources */,
 				CBDF015D23AA94220037D68E /* SceneDelegate.swift in Sources */,
+				CB9163E623AAC6C50022B16B /* PixabayAPIClient.swift in Sources */,
+				3C914A1F23AAD3D80009DBF1 /* LoginVC.swift in Sources */,
+				3C914A2723AAD4960009DBF1 /* AppUser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
