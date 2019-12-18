@@ -3,15 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		43C26E6D11F01416E8C3EDE3 /* Pods_WastelessKitchen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA210E4DA43834D5EA7B7224 /* Pods_WastelessKitchen.framework */; };
 		CBDF015B23AA94220037D68E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF015A23AA94220037D68E /* AppDelegate.swift */; };
 		CBDF015D23AA94220037D68E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF015C23AA94220037D68E /* SceneDelegate.swift */; };
-		CBDF015F23AA94220037D68E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF015E23AA94220037D68E /* ViewController.swift */; };
-		CBDF016223AA94220037D68E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBDF016023AA94220037D68E /* Main.storyboard */; };
 		CBDF016523AA94220037D68E /* WastelessKitchen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CBDF016323AA94220037D68E /* WastelessKitchen.xcdatamodeld */; };
 		CBDF016723AA94230037D68E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBDF016623AA94230037D68E /* Assets.xcassets */; };
 		CBDF016A23AA94230037D68E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBDF016823AA94230037D68E /* LaunchScreen.storyboard */; };
@@ -51,8 +49,6 @@
 		CBDF015723AA94220037D68E /* WastelessKitchen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WastelessKitchen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBDF015A23AA94220037D68E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBDF015C23AA94220037D68E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CBDF015E23AA94220037D68E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CBDF016123AA94220037D68E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CBDF016423AA94220037D68E /* WastelessKitchen.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WastelessKitchen.xcdatamodel; sourceTree = "<group>"; };
 		CBDF016623AA94230037D68E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBDF016923AA94230037D68E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -113,7 +109,6 @@
 				66DE7DE1D4D64C2E80B5C25C /* Pods-WastelessKitchenTests.debug.xcconfig */,
 				AEED1D28901B4C09DBE76C73 /* Pods-WastelessKitchenTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -142,10 +137,14 @@
 		CBDF015923AA94220037D68E /* WastelessKitchen */ = {
 			isa = PBXGroup;
 			children = (
+				CBDF019523AAA0990037D68E /* APIHelpers */,
+				CBDF019423AA9F880037D68E /* Utilities */,
+				CBDF019323AA9F4C0037D68E /* Models */,
+				CBDF019223AA9F0A0037D68E /* Extensions */,
+				CBDF018E23AA9EE50037D68E /* ViewControllers */,
+				CBDF018D23AA9ED80037D68E /* FirebaseHelpers */,
 				CBDF015A23AA94220037D68E /* AppDelegate.swift */,
 				CBDF015C23AA94220037D68E /* SceneDelegate.swift */,
-				CBDF015E23AA94220037D68E /* ViewController.swift */,
-				CBDF016023AA94220037D68E /* Main.storyboard */,
 				CBDF016623AA94230037D68E /* Assets.xcassets */,
 				CBDF016823AA94230037D68E /* LaunchScreen.storyboard */,
 				CBDF016B23AA94230037D68E /* Info.plist */,
@@ -170,6 +169,72 @@
 				CBDF018123AA94240037D68E /* Info.plist */,
 			);
 			path = WastelessKitchenUITests;
+			sourceTree = "<group>";
+		};
+		CBDF018D23AA9ED80037D68E /* FirebaseHelpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FirebaseHelpers;
+			sourceTree = "<group>";
+		};
+		CBDF018E23AA9EE50037D68E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CBDF019123AA9EF50037D68E /* TabControllers */,
+				CBDF019023AA9EEF0037D68E /* DVCs */,
+				CBDF018F23AA9EEB0037D68E /* Cells */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CBDF018F23AA9EEB0037D68E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		CBDF019023AA9EEF0037D68E /* DVCs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DVCs;
+			sourceTree = "<group>";
+		};
+		CBDF019123AA9EF50037D68E /* TabControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TabControllers;
+			sourceTree = "<group>";
+		};
+		CBDF019223AA9F0A0037D68E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CBDF019323AA9F4C0037D68E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CBDF019423AA9F880037D68E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		CBDF019523AAA0990037D68E /* APIHelpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = APIHelpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,7 +348,6 @@
 			files = (
 				CBDF016A23AA94230037D68E /* LaunchScreen.storyboard in Resources */,
 				CBDF016723AA94230037D68E /* Assets.xcassets in Resources */,
-				CBDF016223AA94220037D68E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,7 +475,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBDF015F23AA94220037D68E /* ViewController.swift in Sources */,
 				CBDF015B23AA94220037D68E /* AppDelegate.swift in Sources */,
 				CBDF016523AA94220037D68E /* WastelessKitchen.xcdatamodeld in Sources */,
 				CBDF015D23AA94220037D68E /* SceneDelegate.swift in Sources */,
@@ -450,14 +513,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CBDF016023AA94220037D68E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CBDF016123AA94220037D68E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CBDF016823AA94230037D68E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
