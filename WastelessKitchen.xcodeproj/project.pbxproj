@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		43C26E6D11F01416E8C3EDE3 /* Pods_WastelessKitchen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA210E4DA43834D5EA7B7224 /* Pods_WastelessKitchen.framework */; };
 		CB9163E623AAC6C50022B16B /* PixabayAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9163E523AAC6C50022B16B /* PixabayAPIClient.swift */; };
+		CB9163E823AAD13C0022B16B /* PantryVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9163E723AAD13C0022B16B /* PantryVCViewController.swift */; };
 		CBDF015B23AA94220037D68E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF015A23AA94220037D68E /* AppDelegate.swift */; };
 		CBDF015D23AA94220037D68E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF015C23AA94220037D68E /* SceneDelegate.swift */; };
 		CBDF016523AA94220037D68E /* WastelessKitchen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CBDF016323AA94220037D68E /* WastelessKitchen.xcdatamodeld */; };
@@ -57,6 +58,7 @@
 		BE5C34F58FBA8F8FC10F486A /* Pods_WastelessKitchen_WastelessKitchenUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WastelessKitchen_WastelessKitchenUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA210E4DA43834D5EA7B7224 /* Pods_WastelessKitchen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WastelessKitchen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB9163E523AAC6C50022B16B /* PixabayAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixabayAPIClient.swift; sourceTree = "<group>"; };
+		CB9163E723AAD13C0022B16B /* PantryVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantryVCViewController.swift; sourceTree = "<group>"; };
 		CBDF015723AA94220037D68E /* WastelessKitchen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WastelessKitchen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBDF015A23AA94220037D68E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBDF015C23AA94220037D68E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -238,6 +240,7 @@
 			children = (
 				CBDF019623AAA1990037D68E /* InputVC.swift */,
 				CBE4888C23AABA7C00CEDB81 /* MapVC.swift */,
+				CB9163E723AAD13C0022B16B /* PantryVCViewController.swift */,
 			);
 			path = TabControllers;
 			sourceTree = "<group>";
@@ -522,6 +525,7 @@
 				CBDF019723AAA1990037D68E /* InputVC.swift in Sources */,
 				CBE4889323AABA9A00CEDB81 /* StringExtension.swift in Sources */,
 				CBE4889923AABAEE00CEDB81 /* Firebaseauth.swift in Sources */,
+				CB9163E823AAD13C0022B16B /* PantryVCViewController.swift in Sources */,
 				CBDF016523AA94220037D68E /* WastelessKitchen.xcdatamodeld in Sources */,
 				CBE4888B23AABA6A00CEDB81 /* APIClient.swift in Sources */,
 				CBDF015D23AA94220037D68E /* SceneDelegate.swift in Sources */,
