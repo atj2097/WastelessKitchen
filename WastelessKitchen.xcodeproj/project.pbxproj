@@ -15,6 +15,7 @@
 		CBDF016A23AA94230037D68E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBDF016823AA94230037D68E /* LaunchScreen.storyboard */; };
 		CBDF017523AA94240037D68E /* WastelessKitchenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF017423AA94240037D68E /* WastelessKitchenTests.swift */; };
 		CBDF018023AA94240037D68E /* WastelessKitchenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF017F23AA94240037D68E /* WastelessKitchenUITests.swift */; };
+		CBDF019723AAA1990037D68E /* InputVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF019623AAA1990037D68E /* InputVC.swift */; };
 		DB9FF515DBA2DF8EA0EE621A /* Pods_WastelessKitchen_WastelessKitchenUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE5C34F58FBA8F8FC10F486A /* Pods_WastelessKitchen_WastelessKitchenUITests.framework */; };
 		FF49D5638A6F1C8A4596F09A /* Pods_WastelessKitchenTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4ED7F206CC00C4538552C0B /* Pods_WastelessKitchenTests.framework */; };
 /* End PBXBuildFile section */
@@ -59,6 +60,7 @@
 		CBDF017B23AA94240037D68E /* WastelessKitchenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WastelessKitchenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBDF017F23AA94240037D68E /* WastelessKitchenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WastelessKitchenUITests.swift; sourceTree = "<group>"; };
 		CBDF018123AA94240037D68E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBDF019623AAA1990037D68E /* InputVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +207,7 @@
 		CBDF019123AA9EF50037D68E /* TabControllers */ = {
 			isa = PBXGroup;
 			children = (
+				CBDF019623AAA1990037D68E /* InputVC.swift */,
 			);
 			path = TabControllers;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 				CBDF015423AA94220037D68E /* Frameworks */,
 				CBDF015523AA94220037D68E /* Resources */,
 				F88D85DAE7D4D3841C7114A6 /* [CP] Embed Pods Frameworks */,
+				F26C72AA483C27D1592AA23F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -287,6 +291,7 @@
 				CBDF017823AA94240037D68E /* Frameworks */,
 				CBDF017923AA94240037D68E /* Resources */,
 				68EAE2109D329CC39E94BA73 /* [CP] Embed Pods Frameworks */,
+				0A04493AAEB222B74608F947 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -368,6 +373,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0A04493AAEB222B74608F947 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WastelessKitchen-WastelessKitchenUITests/Pods-WastelessKitchen-WastelessKitchenUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WastelessKitchen-WastelessKitchenUITests/Pods-WastelessKitchen-WastelessKitchenUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WastelessKitchen-WastelessKitchenUITests/Pods-WastelessKitchen-WastelessKitchenUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		68EAE2109D329CC39E94BA73 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -429,6 +451,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F26C72AA483C27D1592AA23F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WastelessKitchen/Pods-WastelessKitchen-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WastelessKitchen/Pods-WastelessKitchen-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WastelessKitchen/Pods-WastelessKitchen-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		F88D85DAE7D4D3841C7114A6 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -476,6 +515,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBDF015B23AA94220037D68E /* AppDelegate.swift in Sources */,
+				CBDF019723AAA1990037D68E /* InputVC.swift in Sources */,
 				CBDF016523AA94220037D68E /* WastelessKitchen.xcdatamodeld in Sources */,
 				CBDF015D23AA94220037D68E /* SceneDelegate.swift in Sources */,
 			);
