@@ -1,14 +1,14 @@
 //
-//  PantryVCViewController.swift
+//  ExpirationInfoVC.swift
 //  WastelessKitchen
 //
-//  Created by God on 12/18/19.
+//  Created by Krystal Campbell on 12/18/19.
 //  Copyright © 2019 God. All rights reserved.
 //
 
 import UIKit
 
-class PantryVCViewController: UIViewController {
+class ExpirationInfoVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
