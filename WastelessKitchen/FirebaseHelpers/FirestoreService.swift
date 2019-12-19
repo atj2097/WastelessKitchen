@@ -3,7 +3,7 @@ import FirebaseFirestore
 
 fileprivate enum FireStoreCollections: String {
     case users
-    case posts
+    case savedPantry
 }
 
 enum SortingCriteria: String {
@@ -59,6 +59,36 @@ class FirestoreService {
         }
     }
 
+    func createPantry(savedItems: FoodPantry, completion: @escaping (Result<(), Error>)-> ()){
+        
+        let fields = savedItems.fieldsDict
+        
+       // guard let id = savedItems.savedID else {return}
+        
+        db.collection(FireStoreCollections.savedPantry.rawValue).document(savedItems.savedID).setData(fields) {(error) in
+            if let error = error {
+                completion(.failure(error))
+                print(error)
+            }
+            completion(.success(()))
+        }
+    }
 
+    func getFoodPantry(forUserID: String, completion: @escaping (Result<[FoodPantry], Error>) -> ()){
+        
+        db.collection(FireStoreCollections.savedPantry.rawValue).whereField("userID", isEqualTo: forUserID).getDocuments { (snapshot, error) in
+            if let error = error {
+                completion(.failure(error))
+            } else {
+                let foodSaved = snapshot?.documents.compactMap({ (snapshot) -> FoodPantry? in
+                    let savedID = snapshot.documentID
+                    let saved = FoodPantry(from: snapshot.data(), id: savedID)
+                    return saved
+                })
+                completion(.success(foodSaved ?? []))
+            }
+        }
+    }
+    
     private init () {}
 }
